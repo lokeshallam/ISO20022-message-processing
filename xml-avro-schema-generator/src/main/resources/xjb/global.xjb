@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jaxb:bindings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jaxb="https://jakarta.ee/xml/ns/jaxb" jaxb:version="3.0" xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc" jaxb:extensionBindingPrefixes="xjc" >
+<jaxb:globalBindings>
+ <jaxb:javaType name="java.lang.String" xmlType="xsd:dateTime" parseMethod="jakarta.xml.bind.DatatypeConverter.parseString" printMethod="jakarta.xml.bind.DatatypeConverter.printString" />
+    <jaxb:javaType name="java.lang.String" xmlType="xsd:date" parseMethod="jakarta.xml.bind.DatatypeConverter.parseString" printMethod="jakarta.xml.bind.DatatypeConverter.printString" />
+    <jaxb:javaType name="java.lang.String" xmlType="xsd:time" parseMethod="jakarta.xml.bind.DatatypeConverter.parseString" printMethod="jakarta.xml.bind.DatatypeConverter.printString" />            
+    <jaxb:javaType name="java.lang.String" xmlType="xsd:gYear" parseMethod="jakarta.xml.bind.DatatypeConverter.parseString" printMethod="jakarta.xml.bind.DatatypeConverter.printString" />            
+    <jaxb:serializable uid="2"/>
+</jaxb:globalBindings>
+
+
+</jaxb:bindings>

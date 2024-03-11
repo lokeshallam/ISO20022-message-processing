@@ -1,0 +1,14 @@
+.gradle
+**/build/
+
+.classpath
+.project
+.DS_Store
+
+**/.vscode/**
+**/target/**
+**/com/demo/examples/msg/definitions/**
+**/event/**
+**/.terraform.lock.hcl
+**/.terraform/**
+**/dependency-reduced-pom.xml

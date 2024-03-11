@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:remt.001.001.05">
+    <RmtAdvc>
+        <GrpHdr>
+            <MsgId>WeDidIt</MsgId>
+            <CreDtTm>2024-03-01T00:24:50.27</CreDtTm>
+        <InitgPty></InitgPty>
+        </GrpHdr>
+        <RmtInf>
+            <OrgnlPmtInf>
+                <Refs>
+                    <EndToEndId>Hurray</EndToEndId>
+                </Refs>
+            </OrgnlPmtInf>
+        </RmtInf>
+        <RmtInf>
+            <OrgnlPmtInf>
+                <Refs>
+                    <EndToEndId>XMLWorks</EndToEndId>
+                </Refs>
+            </OrgnlPmtInf>
+        </RmtInf>
+    </RmtAdvc>
+</Document>
